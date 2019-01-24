@@ -13,7 +13,7 @@ void createGraph()
 		}
 	}
 }
-void insertedge()
+void insertEdge()
 {
 	int i,j;
 	for(i=0;i<v;i++)
@@ -28,7 +28,7 @@ void insertedge()
 		}
 	}
 }
-void insertvertex()
+void insertVertex()
 {
 	int i,j;
 	v=v+1;
@@ -43,7 +43,7 @@ void insertvertex()
 		}
 	}
 }
-void deleteedge()
+void deleteEdge()
 {
 	int i,j,v1,v2;
 	printf("Enter two vertices v1 and v2:");
@@ -51,7 +51,7 @@ void deleteedge()
 	a[v1][v2]=a[v2][v1]=0;
 	printf("Edge Deleted\n");
 }
-void deletevertex()
+void deleteVertex()
 {
 	int i,j,d;
 	printf("Enter vertex to be deleted:");
