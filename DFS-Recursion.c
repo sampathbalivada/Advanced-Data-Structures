@@ -1,3 +1,8 @@
+/*
+* Depth First Search Algorithm - C recursive Implementation using Arrays
+* Author - github.com/sampathbalivada
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #define n 4
