@@ -2,6 +2,7 @@
 * Prims MST Algorith - C iterative Implementation using Arrays
 * Author - github.com/sampathbalivada
 */
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<climits>
